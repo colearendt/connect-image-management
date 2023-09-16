@@ -1,0 +1,12 @@
+{
+    "https://rsc.training.posit.co": {
+        "server_url": "https://rsc.training.posit.co",
+        "filename": "/Users/colearendt/src/github.com/colearendt/connect-image-management",
+        "app_url": "https://rsc.training.posit.co/custom-content/",
+        "app_id": "693212f1-054b-438c-934b-7bbeba759f81",
+        "app_guid": "693212f1-054b-438c-934b-7bbeba759f81",
+        "title": "Custom Content Images",
+        "app_mode": "python-fastapi",
+        "app_store_version": 1
+    }
+}
