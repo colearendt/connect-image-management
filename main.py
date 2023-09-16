@@ -59,9 +59,9 @@ if not api_key or api_key == "":
 # 	return {"message": "Hello World"}
 
 
-@app.get("/image")
-async def get_image():
-	return {"message": "Hello World"}
+# @app.get("/image")
+# async def get_image():
+# 	return {"message": "Hello World"}
 
 
 @app.post("/image")
