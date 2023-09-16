@@ -64,6 +64,10 @@ if not api_key or api_key == "":
 # 	return {"message": "Hello World"}
 
 
+# TODO: allow a GET for just images maintained by this instance, and owned by this user
+
+# TODO: allow a DELETE for just images maintained by this instance, and owned by this user... by GUID? by Image name?
+
 @app.post("/image")
 async def post_image(
 		img: Image, response: Response, rstudio_connect_credentials: Annotated[str | None, Header()] = None
