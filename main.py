@@ -73,7 +73,7 @@ async def post_image(
 		img: Image, response: Response, rstudio_connect_credentials: Annotated[str | None, Header()] = None
 		) -> dict | str:
 
-	cimg = ConnectImage(title=img.title, name=img.name)
+	cimg = ConnectImage(title=f'<adhoc> {img.title}', name=img.name)
 	cimg.description = img.description
 
 	# prepare credentials of requesting user
